@@ -1,0 +1,35 @@
+Titre de l'exercice : 
+
+    Création d'une Page d'Accueil et de Fiches Personnelles pour les Super-héros et Méchants de l'Univers DC
+
+Description de l'exercice :
+
+    Dans cet exercice complet, vous allez créer une page d'accueil interactive pour le site DC Codex, qui présente les super-héros et méchants emblématiques de l'Univers DC. La page d'accueil comportera un en-tête avec un logo et des liens vers les fiches personnelles des personnages, ainsi qu'une liste des super-héros et méchants. Chaque fiche personnelle affichera des informations telles que le nom, le vrai nom, la taille, le poids, les pouvoirs, ainsi que la liste des méchants pour les super-héros et la liste des super-héros pour les méchants. De plus, chaque fiche personnelle sera personnalisée avec des couleurs de fond et de texte spécifiques pour chaque personnage.
+
+Objectifs pédagogiques :
+
+    Créer une page d'accueil interactive en utilisant JavaScript pour dynamiquement générer le contenu.
+    Créer des fiches personnelles interactives pour chaque personnage avec personnalisation des styles.
+    Pratiquer la gestion des événements de clic pour afficher les fiches personnelles en fonction des choix de l'utilisateur.
+    Consolider la compréhension des concepts HTML, CSS et JavaScript pour la création de sites web.
+
+Instructions :
+
+    Préparation : 
+        Les données des super-héros et méchants sont fournies dans un module JavaScript nommé data/datasource.js. Assurez-vous que chaque personnage dispose de deux couleurs : une pour le fond et une pour la couleur du texte.
+
+    Création de la Page d'Accueil : 
+        Utilisez JavaScript pour créer une page d'accueil attrayante. L'en-tête de la page devra comporter un logo et des liens vers les listes : super héros et villains. Ensuite, créez une liste des super-héros, une liste des méchants de batman et une liste de méchants de Superman à afficher sur la page d'accueil.
+
+    Création des Fiches Personnelles : 
+        Créez des liens vers les fiches personnelles de chaque personnage à partir de la page d'accueil. Chaque fiche personnelle devra avoir un URL unique de la forme [Path]/character.html?name=nom-du-personnage. Lorsque l'utilisateur clique sur le nom d'un personnage, sa fiche personnelle correspondante avec l'URL unique doit s'afficher. Utilisez JavaScript pour récupérer les query parameters de l'URL afin de personnaliser l'affichage des fiches personnelles.
+
+    Validation : 
+        Ouvrez le fichier HTML dans votre navigateur et assurez-vous que la page d'accueil est fonctionnelle et que les fiches personnelles s'affichent correctement avec les couleurs personnalisées.
+
+    Personnalisation Supplémentaire (Optionnel) : 
+        Si vous le souhaitez, personnalisez davantage les styles des fiches personnelles en ajoutant des bordures, des ombres ou d'autres effets visuels pour améliorer l'esthétique.
+
+
+
+    

@@ -1,0 +1,39 @@
+Titre de l'exercice : 
+Création d'un Site Web de Présentation des Pays 
+avec un Quizz sur les Drapeaux (Option Bonus)
+
+Description de l'exercice :
+
+Dans cet exercice, vous allez créer un site web interactif de présentation des pays qui inclut un quizz sur les drapeaux des pays en tant qu'option bonus. Vous utiliserez JavaScript et l'API Restcountries https://restcountries.com/ pour obtenir des informations sur les pays ainsi que des images de leurs drapeaux.
+
+Objectifs :
+
+    Comprendre et mettre en pratique l'utilisation de XMLHttpRequest pour effectuer des requêtes AJAX en JavaScript.
+    Utiliser des données JSON provenant d'une API (Restcountries) pour afficher des informations sur les pays.
+    Créer une interface utilisateur conviviale en utilisant HTML et CSS.
+
+    Option Bonus : Mettre en place un quizz interactif sur les drapeaux des pays, en générant des questions aléatoires.
+    Option Bonus : Gérer les erreurs potentielles lors de la récupération de données depuis l'API et lors du quizz.
+
+Instructions :
+
+    Créez une structure HTML de base comprenant une zone de recherche pour obtenir des informations sur les pays, une zone d'affichage des informations, et une section pour le quizz sur les drapeaux.
+
+    Utilisez JavaScript et XMLHttpRequest pour récupérer des données sur les pays depuis l'API Restcountries en réponse à une recherche par nom de pays.
+
+    Affichez les informations sur les pays (nom, capitale, population, superficie, etc.) sur la page en réponse à la recherche.
+
+    Option Bonus : Intégrez un quizz sur les drapeaux des pays en utilisant les données drapeaux provenant de l'API Restcountries. Pour chaque question, affichez un drapeau et proposez quatre options de pays (y compris le bon pays).
+
+    Option Bonus : Permettez à l'utilisateur de sélectionner une réponse parmi les quatre propositions et affichez un message pour indiquer si la réponse est correcte ou non.
+
+    Créez une interface utilisateur conviviale en utilisant HTML et CSS pour rendre votre site web agréable à utiliser.
+
+    Option Bonus : Gérez les erreurs potentielles lors de la requête AJAX vers l'API Restcountries et lors du quizz.
+
+    Testez votre application en vous assurant que les informations sur les pays sont correctement affichées, et que le quizz sur les drapeaux fonctionne correctement.
+
+    Incluez des commentaires dans votre code pour expliquer son fonctionnement et ajoutez un fichier README décrivant brièvement votre projet.
+
+    Votre projet est individuel, 
+

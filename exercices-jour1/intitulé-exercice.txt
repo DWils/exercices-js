@@ -1,0 +1,42 @@
+Titre de l'exercice : 
+
+    Création d'une Application de Gestion des Super-héros et Méchants de l'Univers DC
+
+Description de l'exercice :
+
+    Dans cet exercice, vous allez créer une application interactive de gestion des super-héros et méchants de l'Univers DC en utilisant JavaScript. L'application vous permettra de créer, afficher, et rechercher des super-héros et méchants, ainsi que de mettre à jour leurs informations.
+
+Objectifs pédagogiques :
+
+    Créer et utiliser des classes en JavaScript pour représenter des super-héros et méchants.
+    Interagir avec l'utilisateur en utilisant la bibliothèque prompt-sync pour obtenir des saisies.
+    Manipuler des objets JavaScript pour gérer les personnages de l'Univers DC.
+    Créer un menu interactif pour l'application.
+    Gérer l'ajout, l'affichage, la recherche et la modification des super-héros et méchants.
+
+Instructions :
+
+    1) Création de Super-héros : Créez deux nouveaux super-héros, Green Lantern et Flash, en utilisant les données JSON fournies. Ajoutez-les à la liste des super-héros.
+
+    2) Association avec les Méchants : Associez les méchants Joker, Double Face et Penguin à Batman, et les méchants Luthor, Zod et Brainiac à Superman.
+
+    3) Liste des Super-héros et Méchants : Créez deux tableaux séparés, l'un pour les super-héros et l'autre pour les méchants, et ajoutez-y tous les personnages créés.
+
+    4) Modification du Poids : Créez une fonction qui permet de modifier le poids de chaque personnage. Si cette information n'existe pas, ne la modifiez pas.
+
+    5) Menu de l'Application : Affichez un menu interactif qui permet à l'utilisateur de choisir parmi les actions suivantes :
+        Tapez 1 pour afficher les super-héros (affichez toutes les informations des super-héros dans la console).
+        Tapez 2 pour afficher les méchants (affichez toutes les informations des méchants dans la console).
+        Tapez 3 pour rechercher un héros par nom à mot clé (affichez les noms des héros correspondants à la recherche).
+        Tapez 4 pour rechercher un méchant par nom à mot clé (affichez les noms des méchants correspondants à la recherche).
+        Tapez 5 pour créer un super-héros (créez un nouveau super-héros et ajoutez-le à la liste des super-héros, puis affichez toutes les informations du nouveau super-héros).
+        Tapez 0 pour quitter (met fin au programme).
+
+    6) Exécution du Programme : Mettez en marche le programme. L'utilisateur doit pouvoir choisir une action dans le menu ci-dessus, effectuer l'action demandée, puis être invité à continuer ou à quitter le programme.
+
+Pour demander une saisie à votre utilisateur :
+    const variableSaisieDeLUtilisateur = getInput("Votre question");
+
+Pour démarrer la console, ouvrez un terminal (bash, cmd ou autre), mettez vous à la racine de votre projet puis saisissez :
+    node main.js
+    
